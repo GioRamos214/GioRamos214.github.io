@@ -1,0 +1,105 @@
+/* -------------- Body Functions ------------------ */
+
+hr {
+margin-top: 50px;
+border-style: dotted;
+border-left: 0px;
+border-right: 0px;
+border-bottom: 0px;
+border-width: 8px;
+width: 120px;
+margin-left: auto;
+margin-right:auto;
+color: #497174;
+
+  }
+
+h1, h2, p {
+text-align: center;
+margin-top: 30px;
+
+}
+
+/* Top Container */
+
+.profile-picture {
+display: block;
+
+/* This will center the image */
+margin-left: auto;
+margin-right: auto;
+
+/* Border-radius will make the image a circle */
+border-radius: 50%;
+
+/* Width will change the size of the image */
+width: 15%;
+
+/* This will give white space above the image. */
+margin-top: 50px;
+
+margin-bottom: 25px;
+}
+
+/* --------------- Middle Container ----------------- */
+
+.second-header{
+margin-top:50px;
+margin-bottom: 50px;
+}
+
+.scrum-cert{
+margin-right: 50px;
+}
+
+.python-cert{
+margin-left: 50px;
+}
+
+.cert{
+width: 120px;
+display: block;
+margin: 0 auto 0 auto;
+}
+
+.certificates{
+display: flex;
+flex-direction: row;
+/* Justify-content is X-axis basis. Align-items is Y-axis basis. */
+justify-content: center;
+margin-left: 50px;
+}
+
+.cert-title{
+overflow-wrap: break-word;
+text-align: center;
+}
+
+/* --------------- Bottom Container ----------------- */
+
+.third-header{
+margin-top:50px;
+margin-bottom: 50px;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill{
+    padding: 15px;
+}
+
+/* --------------- Contact Me ----------------- */
+
+.tags{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tag{
+    margin-left: 20px;
+    margin-right: 20px;
+}
