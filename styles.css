@@ -1,11 +1,11 @@
 /* -------------- Body Functions ------------------ */
 
 body{
-background-color: #8786AC;
+background-color: #9FAACF;
 }
 
 hr {
-border-color: #696897;
+border-color: #7D8CBE;
 opacity: 1;
 margin-top: 50px;
 border-style: dotted;
@@ -50,12 +50,9 @@ margin-top:50px;
 margin-bottom: 50px;
 }
 
-.scrum-cert{
-margin-right: 50px;
-}
 
-.python-cert{
-margin-left: 50px;
+.network-cert {
+    margin: 0 50 0 auto;
 }
 
 .cert{
@@ -70,11 +67,14 @@ flex-direction: row;
 /* Justify-content is X-axis basis. Align-items is Y-axis basis. */
 justify-content: center;
 margin-left: 50px;
+justify-content: space-evenly;
 }
 
 .cert-title{
 overflow-wrap: break-word;
 text-align: center;
+font-size: medium;
+margin-top: 10px;
 }
 
 /* --------------- Bottom Container ----------------- */
@@ -105,4 +105,13 @@ margin-bottom: 50px;
 .tag{
     margin-left: 20px;
     margin-right: 20px;
+    text-decoration: none;
+}
+
+.tag:hover{
+    color: blue;
+}
+
+.navbar-brand:hover{
+    color: blue;
 }
